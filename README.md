@@ -11,7 +11,7 @@ Who are the top customers by profit?
 Which products are most/least profitable?
 
 🔍 Process & Key Steps
-1. Data Preparation
+1. Data Preparation: 
 Downloaded Superstore dataset from Kaggle.
 Checked and cleaned date formats for Order Date column.
 Formatted numeric fields:
@@ -19,25 +19,25 @@ Formatted numeric fields:
   Profit and Sales → Currency format.
 Cleaned product names and ensured consistency in text formatting.
 
-2. Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA):
 Used Pivot Tables to explore:
   Sales & Profit by Category, Region.
   Monthly & yearly sales trends.
   Top 10 products by profit (Value Filters → Top 10).
 Applied sorting, filtering, and grouping in pivot tables for deeper insights.
 
-3. KPI Calculation
+3. KPI Calculation:
 Total Sales → Sum(Sales)
 Total Profit → Sum(Profit)
 Total Orders → Distinct count of Order ID
 Used GETPIVOTDATA to link pivot results to KPI cards in dashboard.
 
-4. Dashboard Layout
+4. Dashboard Layout:
 KPI Section → Total Sales, Total Profit, Total Orders.
 Visuals arranged in a clean format.
 Applied consistent color theme and data labels for readability.
 
-🛠 Tools & Skills
+🛠 Tools & Skills:
 Used Microsoft Excel
   Data Cleaning (Text, Dates, Numbers)
   Pivot Tables & Pivot Charts
